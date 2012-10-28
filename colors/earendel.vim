@@ -9,11 +9,12 @@ let colors_name = "earendel"
 execute "command! -nargs=1 Colo set background=<args>"
 
 if &background == "light"
-    hi Normal ctermbg=15 ctermfg=0 guibg=#ffffff guifg=#000000 gui=none
+    hi Normal ctermbg=15 ctermfg=0 guibg=#f0f0f0 guifg=#000000 gui=none
 
+    hi ColorColumn ctermbg=7 ctermfg=fg guibg=#d5d5d5 gui=none
     hi Cursor guibg=#000000 guifg=#ffffff gui=none
-    hi CursorColumn ctermbg=7 ctermfg=fg guibg=#dfdfdf gui=none
-    hi CursorLine ctermbg=7 ctermfg=fg guibg=#dfdfdf gui=none
+    hi CursorColumn ctermbg=7 ctermfg=fg guibg=#e0e0e0 gui=none
+    hi CursorLine ctermbg=7 ctermfg=fg guibg=#e0e0e0 gui=none
     hi DiffAdd guibg=#bae981 guifg=fg gui=none
     hi DiffChange guibg=#8495e6 guifg=fg gui=none
     hi DiffDelete guibg=#ff95a5 guifg=fg gui=none
@@ -49,11 +50,11 @@ if &background == "light"
     hi Title guifg=fg gui=bold
     hi VertSplit ctermbg=7 ctermfg=fg guibg=#bcc7de guifg=#384547 gui=none
     if version >= 700
-        hi Visual ctermbg=7 ctermfg=fg guibg=#b5c5e6 gui=none
+        hi Visual ctermbg=7 ctermfg=fg guibg=#bfbfbf gui=none
     else
-        hi Visual ctermbg=7 ctermfg=fg guibg=#b5c5e6 guifg=fg gui=none
+        hi Visual ctermbg=7 ctermfg=fg guibg=#bfbfbf guifg=fg gui=none
     endif    
-    hi VisualNOS ctermbg=8 ctermfg=fg guibg=bg guifg=#4069bf gui=bold,underline
+    hi VisualNOS ctermbg=8 ctermfg=fg guibg=bg guifg=#324263 gui=bold,underline
     hi WarningMsg guibg=bg guifg=#ca001f gui=bold
     hi WildMenu guibg=#fedc56 guifg=fg gui=bold
 
@@ -79,8 +80,9 @@ if &background == "light"
     hi htmlUnderline ctermbg=bg ctermfg=fg guibg=bg guifg=fg gui=underline
     hi htmlUnderlineItalic ctermbg=bg ctermfg=fg guibg=bg guifg=fg gui=underline,italic
 else
-    hi Normal ctermbg=0 ctermfg=7 guibg=#181818 guifg=#cacaca gui=none
+    hi Normal ctermbg=0 ctermfg=7 guibg=#303030 guifg=#cacaca gui=none
 
+    hi ColorColumn ctermbg=8 ctermfg=15 guibg=#4a4a4a gui=none
     hi Cursor guibg=#e5e5e5 guifg=#000000 gui=none
     hi CursorColumn ctermbg=8 ctermfg=15 guibg=#404040 gui=none
     hi CursorLine ctermbg=8 ctermfg=15 guibg=#404040 gui=none
@@ -119,11 +121,11 @@ else
     hi Title ctermbg=bg ctermfg=15 guifg=#e5e5e5 gui=bold
     hi VertSplit ctermbg=7 ctermfg=0 guibg=#35466a guifg=#afbacf gui=none
     if version >= 700
-        hi Visual ctermbg=7 ctermfg=0 guibg=#274278 gui=none
+        hi Visual ctermbg=7 ctermfg=0 guibg=#606060 gui=none
     else
-        hi Visual ctermbg=7 ctermfg=0 guibg=#274278 guifg=fg gui=none
+        hi Visual ctermbg=7 ctermfg=0 guibg=#606060 guifg=fg gui=none
     endif    
-    hi VisualNOS ctermbg=8 ctermfg=0 guibg=bg guifg=#5c77ad gui=bold,underline
+    hi VisualNOS ctermbg=8 ctermfg=0 guibg=bg guifg=#bfcadf gui=bold,underline
     hi WarningMsg guibg=bg guifg=#ea0023 gui=bold
     hi WildMenu guibg=#fbca01 guifg=#000000 gui=bold
 

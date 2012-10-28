@@ -1,7 +1,7 @@
 " NEVERNESS colour scheme
 " Author:      Yann GOLANSKI
-" Version:     1.2
-" Last Change: 13 Jan 2010
+" Version:     1.3
+" Last Change: 26 Mar 2012
 " url http://web.njit.edu/~kevin/rgb.txt.html
 
 set background=dark
@@ -16,49 +16,49 @@ let g:colors_name = 'neverness'
 hi Comment        ctermfg=DarkCyan     guifg=#848484 guibg=#000000 gui=none 
 
 " Constants: SkyBlue
-hi Boolean        ctermfg=Cyan          guifg=#87ceeb guibg=#000000 gui=none
-hi Character      ctermfg=Cyan          guifg=#87ceeb guibg=#000000 gui=none
-hi Constant       ctermfg=Cyan          guifg=#87ceeb guibg=#000000 gui=none
-hi Float          ctermfg=Cyan          guifg=#87ceeb guibg=#000000 gui=none
-hi Number         ctermfg=Cyan          guifg=#87ceeb guibg=#000000 gui=none
-hi String         ctermfg=Cyan          guifg=#87ceeb guibg=#000000 gui=none
+hi Boolean        ctermfg=117          guifg=#87ceeb guibg=#000000 gui=none
+hi Character      ctermfg=117          guifg=#87ceeb guibg=#000000 gui=none
+hi Constant       ctermfg=117          guifg=#87ceeb guibg=#000000 gui=none
+hi Float          ctermfg=117          guifg=#87ceeb guibg=#000000 gui=none
+hi Number         ctermfg=117          guifg=#87ceeb guibg=#000000 gui=none
+hi String         ctermfg=117          guifg=#87ceeb guibg=#000000 gui=none
 
 " Identifier: SteelBlue1
-hi Identifier     ctermfg=LightCyan     guifg=#63b8ff guibg=#000000 gui=none
-hi Function       ctermfg=LightCyan     guifg=#63b8ff guibg=#000000 gui=none
+hi Identifier     ctermfg=81     guifg=#63b8ff guibg=#000000 gui=none
+hi Function       ctermfg=81     guifg=#63b8ff guibg=#000000 gui=none
 
 " Statement: SteelBlue
-hi Conditional    ctermfg=DarkBlue      guifg=#4682b4 guibg=#000000 gui=bold
-hi Exception      ctermfg=DarkBlue      guifg=#4682b4 guibg=#000000 gui=bold
-hi Keyword        ctermfg=DarkBlue      guifg=#4682b4 guibg=#000000 gui=bold
-hi Label          ctermfg=DarkBlue      guifg=#4682b4 guibg=#000000 gui=bold
-hi Operator       ctermfg=DarkBlue      guifg=#4682b4 guibg=#000000 gui=bold
-hi Repeat         ctermfg=DarkBlue      guifg=#4682b4 guibg=#000000 gui=bold
-hi Statement      ctermfg=DarkBlue      guifg=#4682b4 guibg=#000000 gui=bold
+hi Conditional    ctermfg=67      guifg=#4682b4 guibg=#000000 gui=bold
+hi Exception      ctermfg=67      guifg=#4682b4 guibg=#000000 gui=bold
+hi Keyword        ctermfg=67      guifg=#4682b4 guibg=#000000 gui=bold
+hi Label          ctermfg=67      guifg=#4682b4 guibg=#000000 gui=bold
+hi Operator       ctermfg=67      guifg=#4682b4 guibg=#000000 gui=bold
+hi Repeat         ctermfg=67      guifg=#4682b4 guibg=#000000 gui=bold
+hi Statement      ctermfg=67      guifg=#4682b4 guibg=#000000 gui=bold
 
 " PreProc: DarkOrchid1
-hi PreProc        ctermfg=DarkGreen     guifg=#bf3eff guibg=#000000 gui=none
-hi Include        ctermfg=DarkGreen     guifg=#bf3eff guibg=#000000 gui=none
-hi Define         ctermfg=DarkGreen     guifg=#bf3eff guibg=#000000 gui=none
-hi Macro          ctermfg=DarkGreen     guifg=#bf3eff guibg=#000000 gui=none
-hi PreCondit      ctermfg=DarkGreen     guifg=#bf3eff guibg=#000000 gui=none
+hi PreProc        ctermfg=133     guifg=#bf3eff guibg=#000000 gui=none
+hi Include        ctermfg=133     guifg=#bf3eff guibg=#000000 gui=none
+hi Define         ctermfg=133     guifg=#bf3eff guibg=#000000 gui=none
+hi Macro          ctermfg=133     guifg=#bf3eff guibg=#000000 gui=none
+hi PreCondit      ctermfg=133     guifg=#bf3eff guibg=#000000 gui=none
 
 " Type: orchid2
-hi Type           ctermfg=DarkGreen     guifg=#ee7ae9 guibg=#000000 gui=bold
-hi StorageClass   ctermfg=DarkGreen     guifg=#ee7ae9 guibg=#000000 gui=bold
-hi Structure      ctermfg=DarkGreen     guifg=#ee7ae9 guibg=#000000 gui=bold
-hi Typedef        ctermfg=DarkGreen     guifg=#ee7ae9 guibg=#000000 gui=bold
+hi Type           ctermfg=207     guifg=#ee7ae9 guibg=#000000 gui=bold
+hi StorageClass   ctermfg=207     guifg=#ee7ae9 guibg=#000000 gui=bold
+hi Structure      ctermfg=207     guifg=#ee7ae9 guibg=#000000 gui=bold
+hi Typedef        ctermfg=207     guifg=#ee7ae9 guibg=#000000 gui=bold
 
 " Special: cyan2
-hi Special        ctermfg=DarkGray      guifg=#00eeee guibg=#000000 gui=none
-hi SpecialChar    ctermfg=DarkGray      guifg=#00eeee guibg=#000000 gui=none
-hi Tag            ctermfg=DarkGray      guifg=#00eeee guibg=#000000 gui=none
-hi SpecialComment ctermfg=DarkGray      guifg=#00eeee guibg=#000000 gui=none
-hi Delimiter      ctermfg=DarkGray      guifg=#00eeee guibg=#000000 gui=none
-hi Debug          ctermfg=DarkGray      guifg=#00eeee guibg=#000000 gui=none
+hi Special        ctermfg=51      guifg=#00eeee guibg=#000000 gui=none
+hi SpecialChar    ctermfg=51      guifg=#00eeee guibg=#000000 gui=none
+hi Tag            ctermfg=51      guifg=#00eeee guibg=#000000 gui=none
+hi SpecialComment ctermfg=51      guifg=#00eeee guibg=#000000 gui=none
+hi Delimiter      ctermfg=51      guifg=#00eeee guibg=#000000 gui=none
+hi Debug          ctermfg=51      guifg=#00eeee guibg=#000000 gui=none
 
 " Underline: NavajoWhite2
-hi Underlined     ctermfg=LightGray     guifg=#eecfa1 guibg=#000000 gui=none
+hi Underlined     ctermfg=144     guifg=#eecfa1 guibg=#000000 gui=none
 
 " Ignore: black
 hi Ignore         ctermfg=LightGray     guifg=#ffffff guibg=#000000 gui=none
@@ -67,7 +67,7 @@ hi Ignore         ctermfg=LightGray     guifg=#ffffff guibg=#000000 gui=none
 hi Error          ctermfg=LightGray     guifg=#ff0000 guibg=#232323 gui=bold
 
 " To do: SlateGray3
-hi Todo           ctermfg=LightMagenta     guifg=#9fb6cd guibg=#232323 gui=none
+hi Todo           ctermfg=116     guifg=#9fb6cd guibg=#232323 gui=none
 
 " Spelling...
 hi SpellBad    ctermfg=DarkRed      ctermbg=black
@@ -81,8 +81,8 @@ hi CursorColumn   guibg=#222222 gui=none
 hi CursorLine     guibg=#222222 gui=none
 
 " Line number.
-"hi LineNr         ctermfg=DarkMagenta     guifg=#4682b4 guibg=#000000 gui=bold
-hi LineNr         ctermfg=DarkMagenta     guifg=#2b506e guibg=#000000 gui=none
+hi LineNr         ctermfg=DarkMagenta guifg=#2b506e guibg=#000000 
+hi CursorLineNr   ctermfg=DarkMagenta term=bold gui=bold guifg=#9FB6CD
 
 " Normal colour: just white thank you.
 hi Normal         guifg=#ffffff guibg=#000000 gui=none
@@ -139,3 +139,8 @@ hi Pmenu       ctermfg=White ctermbg=DarkBlue  guifg=#000000 guibg=#4682b4 gui=n
 hi PmenuSbar   ctermfg=White ctermbg=LightCyan guifg=#ffffff guibg=#848484 gui=none
 hi PmenuThumb  ctermfg=White ctermbg=DarkGreen guifg=#ffffff guibg=#87ceeb gui=none
 
+" email pita.
+hi mailEmail ctermfg=Cyan ctermbg=Black 
+
+" Signbar plugin from Hannes Saffrich <hannes.saffrich@uranus.uni-freiburg.de>
+hi SignColumn ctermfg=DarkMagenta guifg=#2b506e guibg=#000000
